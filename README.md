@@ -62,8 +62,8 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 
 2. Make sure that you have the 'psycopg2-binary' module installed. Check your Pipfile to see if it is listed under 'packages'. If you do not have the psycopg2 module installed, initiate a pipenv shell and install the module with the following commands:
 
-- pipenv shell
-- pipenv install psycopg2-binary
+   - pipenv shell
+   - pipenv install psycopg2-binary
 
 3. Locate the DATABASES settings in your Django project's settings.py file. It should look something like this:
 
@@ -83,10 +83,10 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 
 3. If you get this error: 'django.db.utils.NotSupportedError: PostgreSQL 12 or later is required (found 11.19)', we will need to install a different version of Django in order to work with ElephantSQL's version of PostgreSQL.
 
-Run the following commands within your shell:
+   Run the following commands within your shell:
 
-- pipenv uninstall django
-- pipenv install django===4.0
+   - pipenv uninstall django
+   - pipenv install django===4.0
 
 Now that we've updated our version of Django to be compatible with the remote version of PostgreSQL, let's try running the migrate command again (python3 manage.py migrate).
 
