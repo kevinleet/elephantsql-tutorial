@@ -58,7 +58,12 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 
 ## Configuring Django to Connect to ElephantSQL
 
-1. Open your Django project in your preferred code editor.
+1. Open your existing Django project in your preferred code editor.
+
+2. Make sure that you have the 'psycopg2-binary' module installed. Check your Pipfile to see if it is listed under 'packages'. If you do not have the psycopg2 module installed, initiate a pipenv shell and install the module with the following commands:
+
+- pipenv shell
+- pipenv install psycopg2-binary
 
 2. Locate the DATABASES settings in your Django project's settings.py file. It should look something like this:
 
