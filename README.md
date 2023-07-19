@@ -50,9 +50,9 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 
 3. Look for the following essential details:
 
-Server: The URL that our Django application will connect to.
-User & Default Database: The username to log in to the PostgreSQL instance. The default database name.
-Password: The password associated with the username for authentication.
+- Server: The URL that our Django application will connect to.
+- User & Default Database: The username to log in to the PostgreSQL instance. The default database name.
+- Password: The password associated with the username for authentication.
 
 ![instancedetails](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/instance.png?raw=true)
 
