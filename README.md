@@ -42,4 +42,16 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 
 5. Click the "Create" or "Continue" button to initiate the instance creation process. ElephantSQL will now provision your database, which may take a few moments.
 
+## Accessing Your ElephantSQL Instance Details
+
+1. Once the instance is successfully created, you will be redirected to the instances list page. Here, you should see the newly created instance listed with the name you provided.
+
+2. Click on the instance name to access its details. In this page, you'll find information about your PostgreSQL database, including the connection details required to connect to it from your Django application.
+
+3. Look for the following essential details:
+
+Server: The URL that our Django application will connect to.
+User & Default Database: The username to log in to the PostgreSQL instance. The default database name.
+Password: The password associated with the username for authentication.
+
 ## Connecting Django to ElephantSQL
