@@ -56,4 +56,12 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 
 ![instancedetails](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/instance.png?raw=true)
 
-## Connecting Django to ElephantSQL
+## Configuring Django to Connect to ElephantSQL
+
+1. Open your Django project in your preferred code editor.
+
+2. Locate the DATABASES settings in your Django project's settings.py file. It should look something like this:
+
+3. Replace the current settings with the ElephantSQL instance details you obtained earlier. It should look similar to this:
+
+4. Save the 'settings.py' file.
