@@ -54,4 +54,6 @@ Server: The URL that our Django application will connect to.
 User & Default Database: The username to log in to the PostgreSQL instance. The default database name.
 Password: The password associated with the username for authentication.
 
+![instancedetails](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/instance.png?raw=true)
+
 ## Connecting Django to ElephantSQL
