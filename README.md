@@ -1,1 +1,4 @@
-# elephantsql-tutorial
+# ElephantSQL Tutorial
+
+## Introduction 
+In the digital age, where data is scattered everywhere, it's important for Django developers to know how to connect their projects to remote databases. In this tutorial, we'll walk you through the process of seamlessly linking Django, the awesome web framework, to a remote database. By using a remote database, you can take your Django projects beyond a single machine or local network. This brings a bunch of cool benefits like collaborating with teams spread across the globe, scaling your projects effortlessly, and beefing up your data security. With the power of remote databases at your fingertips, Django becomes even more powerful, enabling you to create robust and flexible applications that rock in today's data-driven world. So, let's dive in and make those remote connections like a pro!
