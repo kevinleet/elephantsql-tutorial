@@ -14,6 +14,8 @@ To get started with creating a remote PostgreSQL database for your Django projec
 
 2. Once you're on the ElephantSQL website, look for the "Sign up" or "Create an account" button and click on it. This will take you to the registration page.
 
+![loginpage](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/login.png?raw=true)
+
 3. Fill in the required information, such as your email address and a password, to create your ElephantSQL account. Make sure to choose a strong password to protect your database.
 
 4. After successfully creating your account, you may be prompted to verify your email address. Follow the instructions provided to complete the verification process.
