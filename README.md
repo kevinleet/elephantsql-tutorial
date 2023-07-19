@@ -81,7 +81,16 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 
 2. Run the following command to apply the migrations: 'python3 manage.py migrate'
 
-3. Django will now create the required tables and set up your remote PostgreSQL database.
+3. If you get this error: 'django.db.utils.NotSupportedError: PostgreSQL 12 or later is required (found 11.19)', we will need to install a different version of Django in order to work with ElephantSQL's version of PostgreSQL.
+
+Run the following commands within your shell:
+
+- pipenv uninstall django
+- pipenv install django===4.0
+
+Now that we've updated our version of Django to be compatible with the remote version of PostgreSQL, let's try running the migrate command again (python3 manage.py migrate).
+
+4. Django will now create the required tables and set up your remote PostgreSQL database.
 
 Congratulations! Your Django application is now connected to the remote ElephantSQL instance. You can start building your web application, and all data will be stored and retrieved from the PostgreSQL database hosted on ElephantSQL. Remember to keep your database credentials secure and avoid exposing them in public repositories or code snippets.
 
