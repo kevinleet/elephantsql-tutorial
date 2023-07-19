@@ -17,3 +17,5 @@ To get started with creating a remote PostgreSQL database for your Django projec
 5. Once your account is set up and verified, you will be redirected to the ElephantSQL dashboard. This is where you'll manage your remote PostgreSQL databases.
 
 Congratulations! You've created your ElephantSQL account and are ready to move on to the next step of setting up your remote PostgreSQL database for your Django project.
+
+## Connecting Django to ElephantSQL
