@@ -28,11 +28,17 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 
 1. On the ElephantSQL dashboard, click on the "Create New Instance" button or the "+ New Instance" option. This will start the process of creating a new PostgreSQL instance.
 
+![createinstance](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/createinstance.png?raw=true)
+
 2. You will be prompted to choose a plan for your database. ElephantSQL offers various plans with different resource allocations, depending on your needs. For this tutorial, we will be using the free plan called 'Tiny Turtle'.
+
+![selectplan](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/selectplan.png?raw=true)
 
 3. Select the 'Tiny Turtle' plan and give your instance a name. The instance name can be anything you like, but make sure it's descriptive so that you can easily recognize it later.
 
 4. You can also choose the region where your database will be hosted. Select the region that is geographically closest to your target audience or your own location for better performance.
+
+![selectregion](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/selectregion.png?raw=true)
 
 5. Click the "Create" or "Continue" button to initiate the instance creation process. ElephantSQL will now provision your database, which may take a few moments.
 
