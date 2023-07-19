@@ -84,3 +84,10 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 3. Django will now create the required tables and set up your remote PostgreSQL database.
 
 Congratulations! Your Django application is now connected to the remote ElephantSQL instance. You can start building your web application, and all data will be stored and retrieved from the PostgreSQL database hosted on ElephantSQL. Remember to keep your database credentials secure and avoid exposing them in public repositories or code snippets.
+
+## Contributions
+
+- Kevin Li
+- Margaret Camilletti
+- Christopher Morales
+- Rustam Boura
