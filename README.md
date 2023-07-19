@@ -62,6 +62,10 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 
 2. Locate the DATABASES settings in your Django project's settings.py file. It should look something like this:
 
+![database_original](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/databases1.png?raw=true)
+
 3. Replace the current settings with the ElephantSQL instance details you obtained earlier. It should look similar to this:
+
+![database_new](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/databases2.png?raw=true)
 
 4. Save the 'settings.py' file.
