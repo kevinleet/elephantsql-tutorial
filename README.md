@@ -65,12 +65,22 @@ Congratulations! You've created your ElephantSQL account and are ready to move o
 - pipenv shell
 - pipenv install psycopg2-binary
 
-2. Locate the DATABASES settings in your Django project's settings.py file. It should look something like this:
+3. Locate the DATABASES settings in your Django project's settings.py file. It should look something like this:
 
 ![database_original](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/databases1.png?raw=true)
 
-3. Replace the current settings with the ElephantSQL instance details you obtained earlier. It should look similar to this:
+4. Replace the current settings with the ElephantSQL instance details you obtained earlier. It should look similar to this:
 
 ![database_new](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/databases2.png?raw=true)
 
-4. Save the 'settings.py' file.
+5. Save the 'settings.py' file.
+
+## Apply Database Migrations
+
+1. With the successful connection to the remote ElephantSQL instance, you can proceed to apply any pending database migrations to create the necessary tables and schema.
+
+2. Run the following command to apply the migrations: 'python3 manage.py migrate'
+
+3. Django will now create the required tables and set up your remote PostgreSQL database.
+
+Congratulations! Your Django application is now connected to the remote ElephantSQL instance. You can start building your web application, and all data will be stored and retrieved from the PostgreSQL database hosted on ElephantSQL. Remember to keep your database credentials secure and avoid exposing them in public repositories or code snippets.
