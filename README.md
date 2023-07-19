@@ -1,6 +1,6 @@
 # ElephantSQL Tutorial
 
-!(banner)[https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/banner.jpg?raw=true]
+![banner](https://github.com/kevinleet/elephantsql-tutorial/blob/main/images/banner.jpg?raw=true)
 
 ## Introduction
 
