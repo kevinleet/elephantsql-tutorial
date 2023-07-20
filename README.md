@@ -96,7 +96,7 @@ Congratulations! Your Django application is now connected to the remote Elephant
 
 ## Contributions
 
-- Kevin Li ![Github](https://github.com/kevinleet)
-- Margaret Camilletti ![Github](https://github.com/mcamilletti1)
-- Christopher Morales ![Github](https://github.com/christophermoraleswebdev)
-- Rustam Boura ![Github](https://github.com/RustamBoura)
+- Kevin Li [Github](https://github.com/kevinleet)
+- Margaret Camilletti [Github](https://github.com/mcamilletti1)
+- Christopher Morales [Github](https://github.com/christophermoraleswebdev)
+- Rustam Boura [Github](https://github.com/RustamBoura)
